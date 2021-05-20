@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    height: 10000px;
+
     font-family: 'NotoSans-Regular', sans-serif;
 }
 li{
@@ -163,7 +163,7 @@ a{
 .popular-top{
     padding-bottom: 24px;
 }
-.popular h5{
+.popular-top h5{
     font-family: 'NotoSans-Medium', sans-serif;
     font-size: 18px;
     line-height: 30px;
@@ -172,7 +172,7 @@ a{
     margin-right: 24px;
 }
 
-.popular a{
+.popular-top a{
     font-family: 'NotoSans-Light', sans-serif;
     font-size: 16px;
     line-height: 16px;
@@ -303,5 +303,84 @@ a{
     margin-left: 283px;
     padding-top: 18px;
 }
+.catalog-other{
+    margin-bottom: 14px;
+}
 
+/*our-article*/
+.our-article{
+    padding-top: 40px;
+    padding-bottom: 36px;
+}
+.our-article ul{
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: 10px;
+}
+.our-article ul li{
+    width: 272px;
+    height: 432px;
+    float: left;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.our-article ul li h6{
+    font-family: 'NotoSans-Regular', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 8px;
+}
+.our-article ul li p{
+    font-family: 'NotoSans-Light', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+.popular.other{
+    padding-bottom: 72px;
+}
 
+/*footer*/
+.footer{
+    background-color: #fff;
+    padding-top: 40px;
+    padding-bottom: 52px;
+}
+.footer ul{
+    float: left;
+    margin-right: 96px;
+}
+.footer ul li{
+    font-family: 'NotoSans-Light', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    margin-bottom: 12px;
+}
+.footer ul li.first{
+    font-family: 'NotoSans-Medium', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #000000;
+    margin-bottom: 32px;
+}
+.footer ul.last{
+    margin-right: 0;
+}
+.social{
+    float: right;
+}
+.soc-icons{
+    text-align: center;
+    margin-bottom: 52px;
+}
+.soc-icons img{
+    margin-left: 6px;
+    margin-right: 6px;
+}
+.social > img{
+    width: 120px;
+    margin-bottom: 16px;
+}
